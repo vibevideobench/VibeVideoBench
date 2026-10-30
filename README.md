@@ -12,7 +12,7 @@
 
 ## 💥 News 💥
 
-**[2026.10.30]** 📊 We have open-sourced the [dataset rubric](https://huggingface.co/datasets/diaomuxi/vibevideobench) on Hugging Face and the [evaluation code](#quick-start). 🚀
+**[2026.10.30]** 📊 We have open-sourced the [dataset](https://huggingface.co/datasets/diaomuxi/vibevideobench) and the evaluation rubric on Hugging Face, along with the [evaluation code](#quick-start). 🚀
 
 **[2026.10.27]** 📄 Our paper is now available on [arXiv](https://arxiv.org/pdf/2610.35864). 🚀
 
