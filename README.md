@@ -12,6 +12,8 @@
 
 ## 💥 News 💥
 
+**[2026.10.30]** 📊 We have open-sourced the dataset rubric and evaluation code. 🚀
+
 **[2026.10.27]** 📄 Our paper is now available on [arXiv](https://arxiv.org/pdf/2610.35864). 🚀
 
 **[2026.10.26]** 🌐 Our project homepage is live at [vibevideobench.github.io](https://vibevideobench.github.io/). 🚀
