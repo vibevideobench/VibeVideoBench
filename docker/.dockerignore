@@ -1,0 +1,11 @@
+*
+!Dockerfile
+!build/apt-packages.txt
+!build/apt-install.sh
+!build/requirements.lock
+!rootfs
+!downloads/fonts
+!downloads/wheels
+!downloads/node
+!downloads/npm
+!downloads/playwright

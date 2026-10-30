@@ -1,0 +1,5 @@
+{
+  "_comment": "Copy to <experiment>/experiment.json after freeze.py <experiment>. systems: keys of systems.json to run, in launch order. run_case_args: run_case.py options for every run (the defaults already are the main setting: --budget 3600 --cpus 8 --memory 32g --threads 8 --api-failure-credit 1800 --queue-credit).",
+  "systems": ["claude_opus", "gpt56_sol"],
+  "run_case_args": ["--port", "18885", "--tts-port", "18883"]
+}

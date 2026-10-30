@@ -1,0 +1,29 @@
+{
+  "_comment": "Copy to controller/config.json (gitignored) and fill in host paths. Harnesses are not shipped: install each from its official channel. Only the harness of the system being run is checked. Each harness entry is a host directory, mounted read-only in the container at the path in _mount; the versions below are the ones this benchmark was tested with. A system can name another entry with \"harness_install\" in systems.json (gpt6_astra uses codex_astra, a newer Codex CLI).",
+  "image": "vibe-l0:0.1",
+  "docker_host": "",
+  "ffmpeg_dir": "",
+  "harness": {
+    "codex": "/path/to/codex/bin",
+    "antigravity": "/path/to/agy",
+    "claude": "/path/to/claude/bin",
+    "dsh": "/path/to/dsh-runtime",
+    "kimi": "/path/to/kimi-code",
+    "zcode": "/path/to/zcode-cli/dist",
+    "codex_astra": "/path/to/codex-0.162.1/bin"
+  },
+  "_harness_layout": {
+    "codex": "directory with the codex binary (and codex-code-mode-host); mounted at /opt/native; tested: codex-cli 0.147.0 (x86_64 musl standalone)",
+    "antigravity": "directory with the agy binary; mounted at /opt/agy; tested: agy 1.4.0",
+    "claude": "directory with the claude binary; mounted at /opt/claude; tested: Claude Code 2.1.301 (native x86_64-linux)",
+    "dsh": "npm prefix holding node_modules/@deepseek-ai/dsh (runs on the image's node); mounted at /opt/dsh-runtime; tested: @deepseek-ai/dsh 0.2.1-rc.2",
+    "kimi": "npm prefix holding node_modules/@moonshot-ai/kimi-code (runs on the image's node 24); mounted at /opt/kimi; tested: @moonshot-ai/kimi-code 2.2.0",
+    "zcode": "directory with zcode.cjs (the CLI's dist/); mounted at /opt/zcode; tested: ZCode CLI 0.17.0",
+    "codex_astra": "like codex; used by systems whose systems.json entry says \"harness_install\": \"codex_astra\" (gpt6_astra); tested: codex-cli 0.162.1"
+  },
+  "_fields": {
+    "image": "sandbox image built by docker/build.sh",
+    "docker_host": "optional DOCKER_HOST (empty: docker's default or your environment)",
+    "ffmpeg_dir": "optional directory put first on PATH: the delivery checker runs ffmpeg/ffprobe on the host"
+  }
+}

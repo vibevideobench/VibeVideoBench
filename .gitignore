@@ -1,0 +1,17 @@
+keys.env
+systems.json
+config.json
+judge/config.json
+__pycache__/
+*.pyc
+*.log
+runs/
+judge_results*/
+l1_results/
+quiz_results/
+docker/downloads/
+docker/build/*.log
+docker/build/downloads.sha256.new
+docker/build/smoke-out/
+data/.external_cache/
+data/

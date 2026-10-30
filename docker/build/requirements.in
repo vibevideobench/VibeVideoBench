@@ -1,0 +1,6 @@
+numpy==2.5.4
+pillow==12.3.0
+opencv-python-headless==4.14.0.94
+cairocffi==1.7.1
+playwright==1.62.0
+uv==0.13.1

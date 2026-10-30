@@ -1,0 +1,24 @@
+{
+  "libraries": [
+    {
+      "package": "three",
+      "version": "0.160.0",
+      "license": "MIT",
+      "tarball_url": "https://registry.npmjs.org/three/-/three-0.160.0.tgz",
+      "tarball_sha256": "1ee2f935c4f555814b388e87b5ef78a44856bd2e9d0feb88643a6e193fb42856",
+      "package_dir": "three",
+      "file": "three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "package": "gsap",
+      "version": "3.12.5",
+      "license": "GreenSock standard no-charge license, https://gsap.com/standard-license",
+      "tarball_url": "https://registry.npmjs.org/gsap/-/gsap-3.12.5.tgz",
+      "tarball_sha256": "134ab4f04f6d98d5fd55f89b6f07726a3b9660c483d4ca31acc0efec62fd5236",
+      "package_dir": "gsap",
+      "file": "gsap.min.js",
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+    }
+  ]
+}

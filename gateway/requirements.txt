@@ -1,0 +1,2 @@
+# gateway/ dependencies (Python >= 3.10). Both gateways run on the standard library alone.
+Pillow>=10.0    # optional: re-encodes PNG screenshots as JPEG when an upstream answers 413 (skipped without it)

@@ -1,0 +1,18 @@
+# Ubuntu 24.04 packages for the L0 image (one group per line; `#` lines are ignored).
+# base tools
+ca-certificates curl wget git unzip zip xz-utils bzip2 file procps less jq bc tzdata sudo gnupg
+# compilers and headers for packages agents build themselves
+build-essential pkg-config python3.12 python3.12-dev python3.12-venv
+# media
+ffmpeg imagemagick sox libsox-fmt-all
+# cairo runtime (cairocffi) + dev headers (pycairo / manim / node-canvas builds)
+libcairo2 libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+# Mesa software OpenGL / EGL (llvmpipe)
+libgl1 libglx-mesa0 libegl1 libegl-mesa0 libgles2 libgl1-mesa-dri libglib2.0-0t64
+# X client libs that pip-installed bpy and similar wheels expect
+libxi6 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libxrender1
+# virtual display for programs that insist on one
+xvfb xauth
+# fonts
+fontconfig fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-core fonts-noto-color-emoji
+fonts-wqy-zenhei fonts-wqy-microhei fonts-arphic-ukai fonts-dejavu-core fonts-liberation2 fonts-font-awesome
